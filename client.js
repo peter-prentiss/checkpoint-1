@@ -10,7 +10,7 @@ $(document).ready(function() {
       counter++;
   });
   $('.container').on('click', '#swap', function() {
-    $(this).parent().css('background-color', 'yellow');
+    $(this).parent().toggleClass('yellow');
   });
   $('.container').on('click', '#delete', function() {
     $(this).parent().remove();
